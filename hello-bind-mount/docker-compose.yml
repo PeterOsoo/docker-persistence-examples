@@ -5,7 +5,4 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - mydata:/data
-
-volumes:
-  mydata:
+      - ./data:/data
